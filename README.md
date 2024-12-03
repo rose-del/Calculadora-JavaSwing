@@ -1,2 +1,37 @@
-# Calculadora-JavaSwing
-Pequeno projeto desenvolvido durante as aulas de POO utilizando Java Swing
+# Calculadora em Java
+
+Uma calculadora gráfica simples desenvolvida em Java utilizando Swing. Este projeto implementa operações matemáticas básicas como adição, subtração, multiplicação e divisão, com uma interface gráfica simples.
+
+## Funcionalidades
+
+    - Operações básicas: Soma, Subtração, Multiplicação e Divisão.
+    - Interface gráfica: Um design funcional e organizado utilizando GridBagLayout.
+    - Botão de "Apagar": Permite limpar os valores inseridos.
+    - Exibição em tempo real: Mostra os números e operadores digitados no display da calculadora.
+
+## Estrutura do Código
+
+### Classes principais:
+
+- ### Calculadora:
+Contém a lógica das operações matemáticas.
+        
+        - Atributos: valorA e valorB => operandos para os cálculos.
+        - operador: identifica a operação selecionada.
+        - Métodos principais:
+            1. calcular(): realiza o cálculo com base no operador.
+            2. resetar(): limpa os valores armazenados.
+- ### MinhaJanela: 
+Gerencia a interface gráfica do programa. Utiliza JFrame, JButton e JTextField para a construção da GUI. Possui métodos para adicionar botões e eventos associados.
+
+## Como executar
+
+1. Clone ou baixe o repositório deste projeto
+
+2. Compile os arquivos .java
+
+<!-- markdownlint-disable code-block-style -->
+javac MinhaJanela.java Calculadora.java
+<!-- markdownlint-disable code-block-style -->
+
+3. Execute o programa:
