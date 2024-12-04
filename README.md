@@ -29,3 +29,5 @@ Uma calculadora gráfica simples desenvolvida em Java utilizando Swing. Este pro
         javac MinhaJanela.java Calculadora.java
    
 4. Execute o programa:
+   
+[Gravação de tela](https://github.com/user-attachments/assets/6a55ab51-bb80-483e-b372-8e529aa8cef8)
