@@ -4,25 +4,21 @@ Uma calculadora gráfica simples desenvolvida em Java utilizando Swing. Este pro
 
 ## Funcionalidades
 
-    - Operações básicas: Soma, Subtração, Multiplicação e Divisão.
-    - Interface gráfica: Um design funcional e organizado utilizando GridBagLayout.
-    - Botão de "Apagar": Permite limpar os valores inseridos.
-    - Exibição em tempo real: Mostra os números e operadores digitados no display da calculadora.
+- Operações básicas: Soma, Subtração, Multiplicação e Divisão.
+- Interface gráfica: Um design funcional e organizado utilizando GridBagLayout.
+- Botão de "Apagar": Permite limpar os valores inseridos.
+- Exibição em tempo real: Mostra os números e operadores digitados no display da calculadora.
 
 ## Estrutura do Código
 
-### Classes principais:
-
-- ### Calculadora:
-Contém a lógica das operações matemáticas.
-        
-        - Atributos: valorA e valorB => operandos para os cálculos.
-        - operador: identifica a operação selecionada.
-        - Métodos principais:
-            1. calcular(): realiza o cálculo com base no operador.
-            2. resetar(): limpa os valores armazenados.
-- ### MinhaJanela: 
-Gerencia a interface gráfica do programa. Utiliza JFrame, JButton e JTextField para a construção da GUI. Possui métodos para adicionar botões e eventos associados.
+1. `Calculadora`: Contém a lógica das operações matemáticas.      
+- Atributos: valorA e valorB => operandos para os cálculos.
+- operador: identifica a operação selecionada.
+- Métodos principais:
+  1. calcular(): realiza o cálculo com base no operador.
+  2. resetar(): limpa os valores armazenados.
+     
+2. `MinhaJanela`: Gerencia a interface gráfica do programa. Utiliza JFrame, JButton e JTextField para a construção da GUI. Possui métodos para adicionar botões e eventos associados.
 
 ## Como executar
 
@@ -30,8 +26,6 @@ Gerencia a interface gráfica do programa. Utiliza JFrame, JButton e JTextField 
 
 2. Compile os arquivos .java
 
-<!-- markdownlint-disable code-block-style -->
-javac MinhaJanela.java Calculadora.java
-<!-- markdownlint-disable code-block-style -->
-
-3. Execute o programa:
+        javac MinhaJanela.java Calculadora.java
+   
+4. Execute o programa:
